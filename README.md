@@ -4,7 +4,7 @@ A full-stack invoice ingestion pipeline that accepts PDF invoices, protects sens
 
 ## Screenshot
 
-![PDF Intelligence Engine UI](docs/screenshot.png)
+![PDF Intelligence Engine UI](docs/oracle_netsuite.JPG)
 
 The UI shows three stages after a PDF is uploaded and processed:
 - **Upload Invoice PDF** — drag and drop or file picker, shows file name and size
