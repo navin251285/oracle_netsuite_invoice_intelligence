@@ -2,6 +2,15 @@
 
 A full-stack invoice ingestion pipeline that accepts PDF invoices, protects sensitive fields during LLM extraction, restores trusted PII after extraction, and updates Oracle NetSuite via API.
 
+## Screenshot
+
+![PDF Intelligence Engine UI](docs/screenshot.png)
+
+The UI shows three stages after a PDF is uploaded and processed:
+- **Upload Invoice PDF** — drag and drop or file picker, shows file name and size
+- **Extracted PDF Data** — structured invoice fields in formatted or raw JSON view
+- **NetSuite Response** — push result with success/rejection status, status code, and raw response body
+
 ## Architecture Diagram
 
 See separate diagram file: [ARCHITECTURE.md](ARCHITECTURE.md)
