@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs and local runtime artifacts
+*.log
+*.sqlite
+*.sqlite3
+.DS_Store
